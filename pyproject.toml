@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi-conferenceroomreservation"
+version = "0.1.0"
+description = ""
+authors = ["kentata19 <ke.asada@raksul.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_conferenceroomreservation"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.0"
+uvicorn = "^0.23.2"
+requests = "^2.31.0"
+sqlalchemy = "^2.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
